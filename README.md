@@ -40,10 +40,10 @@ Begin capturing.
 
 ### 3. Generate Safe Test Traffic:
 
-ping -c 4 google.com        # ICMP packets
-nslookup example.com        # DNS queries
-visit random websites on  Mozilla firefox
-Stop Capture after ~1 minute.
+- ping -c 4 google.com        # ICMP packets
+- nslookup example.com        # DNS queries
+- visit random websites on  Mozilla firefox
+- Stop Capture after ~1 minute.
 
 ### 4.Apply Protocol Filters in Wireshark:
 
@@ -57,12 +57,13 @@ http – Unencrypted HTTP traffic
 ### 5.Save Capture as `capture.pcapng` .
 
 ## 📊 Protocols Identified
+
 Protocol	Layer	Purpose	Example Observation
-**ICMP**	Network	Diagnostic messages (ping)	Echo request/reply to Google
-**DNS**	Application	Domain name resolution	Query for example.com
-**HTTP**	Application	Transfer of web data	GET / request to example.com
-**TCP**	Transport	Reliable data transport	3-way handshake with remote server
-**TLS**	Application	Encryption for HTTPS	TLS Client Hello to example.com
+- **ICMP**	Network	Diagnostic messages (ping)	Echo request/reply to Google
+- **DNS**	Application	Domain name resolution	Query for example.com
+- **HTTP**	Application	Transfer of web data	GET / request to example.com
+- **TCP**	Transport	Reliable data transport	3-way handshake with remote server
+- **TLS**	Application	Encryption for HTTPS	TLS Client Hello to example.com
 
  
 ## 📸 Screenshots
