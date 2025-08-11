@@ -53,27 +53,28 @@ dns – Domain name lookups
 
 http – Unencrypted HTTP traffic
 
-tcp – TCP handshake and data transfer
-
-tls – Encrypted HTTPS traffic
 
 ### 5.Save Capture as safe_capture.pcapng.
 
 ## 📊 Protocols Identified
 Protocol	Layer	Purpose	Example Observation
-ICMP	Network	Diagnostic messages (ping)	Echo request/reply to Google
-DNS	Application	Domain name resolution	Query for example.com
-HTTP	Application	Transfer of web data	GET / request to example.com
-TCP	Transport	Reliable data transport	3-way handshake with remote server
-TLS	Application	Encryption for HTTPS	TLS Client Hello to example.com
+**ICMP**	Network	Diagnostic messages (ping)	Echo request/reply to Google
+**DNS**	Application	Domain name resolution	Query for example.com
+**HTTP**	Application	Transfer of web data	GET / request to example.com
+**TCP**	Transport	Reliable data transport	3-way handshake with remote server
+**TLS**	Application	Encryption for HTTPS	TLS Client Hello to example.com
 
  
 ## 📸 Screenshots
-ICMP Traffic
 
-DNS Traffic
+### ICMP Traffic
+![ICMP Screenshot](screenshots/icmp.png)
 
-HTTP Traffic
+### DNS Traffic
+![DNS Screenshot](screenshots/dns.png)
+
+### HTTP Traffic
+![HTTP Screenshot](screenshots/http.png)
 
 ## 📑 Key Learnings
 Safely capturing packets in a controlled lab environment for public sharing.
