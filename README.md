@@ -51,3 +51,40 @@ The goal was to capture live network traffic, identify different protocols, and 
 ---
 
 ## 📂 Project Structure
+
+📁 wireshark-packet-analysis-windows
+├── 📄 README.md
+├── 📂 captures
+│ └── capture.pcap
+├── 📂 screenshots
+│ ├── http-filter.png
+│ ├── dns-filter.png
+│ └── tcp-filter.png
+└── 📄 analysis-report.pdf
+
+---
+
+## 📸 Screenshots
+### HTTP Traffic
+![HTTP Filter Screenshot](screenshots/http-filter.png)
+
+### DNS Traffic
+![DNS Filter Screenshot](screenshots/dns-filter.png)
+
+### TCP Traffic
+![TCP Filter Screenshot](screenshots/tcp-filter.png)
+
+---
+
+## 📑 Key Learnings
+- How to **capture and filter** specific network protocols in Wireshark.
+- Recognized differences between **TCP**, **UDP**, and **application-layer protocols** like HTTP/DNS.
+- Understood packet structure and how it can be used in **SOC investigations** or **network troubleshooting**.
+
+---
+
+## 📜 References
+- [Wireshark Official Documentation](https://www.wireshark.org/docs/)
+- [Packet Life Wireshark Cheatsheet](https://packetlife.net/media/library/13/Wireshark_Display_Filters.pdf)
+
+---
