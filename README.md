@@ -47,11 +47,11 @@ Begin capturing.
 
 ### 4.Apply Protocol Filters in Wireshark:
 
-icmp – Ping requests/replies
+- icmp – Ping requests/replies
 
-dns – Domain name lookups
+- dns – Domain name lookups
 
-http – Unencrypted HTTP traffic
+- http – Unencrypted HTTP traffic
 
 
 ### 5.Save Capture as `capture.pcapng` .
