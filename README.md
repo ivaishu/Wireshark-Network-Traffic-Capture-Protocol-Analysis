@@ -54,7 +54,7 @@ dns – Domain name lookups
 http – Unencrypted HTTP traffic
 
 
-### 5.Save Capture as safe_capture.pcapng.
+### 5.Save Capture as `capture.pcapng` .
 
 ## 📊 Protocols Identified
 Protocol	Layer	Purpose	Example Observation
@@ -77,19 +77,16 @@ Protocol	Layer	Purpose	Example Observation
 ![HTTP Screenshot](screenshots/http.png)
 
 ## 📑 Key Learnings
-Safely capturing packets in a controlled lab environment for public sharing.
+- Safely capturing packets in a controlled lab environment for public sharing.
 
-Using Wireshark filters to isolate protocols of interest.
+- Using Wireshark filters to isolate protocols of interest.
 
-Understanding the structure and purpose of ICMP, DNS, HTTP, TCP, and TLS traffic.
+- Understanding the structure and purpose of ICMP, DNS, HTTP, TCP, and TLS traffic.
 
-Linking packet-level data to real-world network behavior.
+- Linking packet-level data to real-world network behavior.
 
 ## 📜 References
-Wireshark Documentation
-
-Kali Linux Documentation
-
-Wireshark Display Filter Cheat Sheet
+- [Wireshark Documentation](https://www.wireshark.org/docs/)   
+- [Wireshark Display Filter Cheat Sheet](https://packetlife.net/media/library/13/Wireshark_Display_Filters.pdf)  
 
 
